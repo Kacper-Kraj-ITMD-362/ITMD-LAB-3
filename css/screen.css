@@ -191,7 +191,7 @@ html {
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   font-family: "Roboto Condensed", "Arial Narrow", serif;
-  background-color: #f8f8f8;
+  background-color: ##9b9393;
   color: #333;
 }
 
@@ -218,6 +218,7 @@ form {
   background: #fff;
   padding: 1.5em;
   border-radius: 8px;
+  background-color: ##9b9393;
 }
 
 h1 {
@@ -241,6 +242,12 @@ li {
   margin-bottom: 1.25em;
 }
 
+label {
+  font-size: 0.875em;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
 input[type="email"],
 input[type="submit"] {
   width: 100%;
@@ -259,6 +266,11 @@ input[type="checkbox"],
 	width: 1.182em;
 	height: 1.182em;
 	margin-top: 0.5em;
+}
+
+input[type="submit"] {
+  background: #a0a0a0;
+  color: white;
 }
 
 
