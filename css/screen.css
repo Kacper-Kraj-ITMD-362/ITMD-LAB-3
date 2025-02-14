@@ -212,7 +212,34 @@ body {
 
 
 /* ===== LAYOUT STYLES ====== */
+form {
+  max-width: 360px;
+  width: 100%;
+  background: #fff;
+  padding: 1.5em;
+  border-radius: 8px;
+}
 
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0.75em;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 1.25em;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1.25em;
+}
 
 /* ===== STATE STYLES ======= */
 
