@@ -185,23 +185,31 @@ img, audio, video {
 }
 
 /* ===== BASE STYLES ===== */
-
-/*
-  Major Sixth Modular Scale:
-  http://www.modularscale.com/?22&px&1.667&web&text
-*/
-
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   font-family: "Roboto Condensed", "Arial Narrow", serif;
+  background-color: #f8f8f8;
+  color: #333;
 }
 
 label {
   display: block;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+
 
 /* ===== LAYOUT STYLES ====== */
 
