@@ -252,6 +252,15 @@ input[type="submit"] {
   outline: none;
 }
 
+input[type="checkbox"], 
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+	width: 1.182em;
+	height: 1.182em;
+	margin-top: 0.5em;
+}
+
 
 /* ===== STATE STYLES ======= */
 
